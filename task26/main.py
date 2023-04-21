@@ -15,5 +15,4 @@ def exponentiation(a, b):
         return 1
     return a * exponentiation(a, b - 1)
 
-# for i in range(b):
 print(f'{a} в степени {b} равно {exponentiation(a, b)}')
